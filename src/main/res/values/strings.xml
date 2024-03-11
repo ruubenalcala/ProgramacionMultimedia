@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">AplicacionSonido</string>
-    <string name="SoundPool">Audio con SoundPool</string>
-    <string name="MediaPlayer">Audio con MediaPlayer</string>
+    <string name="app_name">Agenda Contactos</string>
 </resources>

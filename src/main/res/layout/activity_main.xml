@@ -6,40 +6,71 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/bt_soundpool"
-        android:layout_width="282dp"
-        android:layout_height="47dp"
-        android:onClick="audioSoundPool"
-        android:text="AUDIO CON SOUNDPOOL"
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre del contacto"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.352" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Datos del contacto"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
 
     <Button
-        android:id="@+id/bt_mediaplayer"
-        android:layout_width="278dp"
-        android:layout_height="48dp"
-        android:onClick="audioMediaPlayer"
-        android:text="AUDIO CON MEDIAPLAYER"
+        android:id="@+id/button1"
+        android:layout_width="152dp"
+        android:layout_height="43dp"
+        android:onClick="buscar"
+        android:text="Buscar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.606" />
+        app:layout_constraintVertical_bias="0.758" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="410dp"
-        android:layout_height="355dp"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="149dp"
+        android:layout_height="66dp"
+        android:onClick="guardar"
+        android:text="Guardar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/_d7d6901ecc5b55e519e6f129c332d98" />
+        app:layout_constraintVertical_bias="0.897" />
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="404dp"
+        android:layout_height="98dp"
+        android:background="#236400"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="AGENDA DE CONTACTOS"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
